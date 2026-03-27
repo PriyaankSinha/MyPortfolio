@@ -30,8 +30,8 @@ export const skills = [
       { name: "TypeScript", percentage: 95 },
       { name: "JavaScript", percentage: 90 },
       { name: "Python", percentage: 85 },
-      { name: "R Programming", percentage: 75 },
       { name: "C#", percentage: 80 },
+      { name: "R Programming", percentage: 75 },
     ],
   },
   {
@@ -39,21 +39,21 @@ export const skills = [
     icon: "FaGlobe",
     items: [
       { name: "React", percentage: 95 },
+      { name: "Tailwind CSS", percentage: 95 },
       { name: "Next.js", percentage: 90 },
+      { name: "Material UI", percentage: 90 },
+      { name: "Framer Motion", percentage: 80 },
       { name: "Angular", percentage: 75 },
       { name: "Vue.js", percentage: 75 },
-      { name: "Material UI", percentage: 90 },
-      { name: "Tailwind CSS", percentage: 95 },
-      { name: "Framer Motion", percentage: 80 },
     ],
   },
   {
     category: "Databases",
     icon: "FaDatabase",
     items: [
-      { name: "MongoDB", percentage: 80 },
       { name: "PostgreSQL", percentage: 90 },
       { name: "MySQL", percentage: 85 },
+      { name: "MongoDB", percentage: 80 },
       { name: "Supabase", percentage: 80 },
     ],
   },
@@ -63,12 +63,12 @@ export const skills = [
     items: [
       { name: "Cursor", percentage: 95 },
       { name: "Visual Studio Code", percentage: 95 },
+      { name: "Antigravity", percentage: 90 },
       { name: "Visual Studio", percentage: 85 },
       { name: ".NET Core", percentage: 80 },
       { name: "Android Studio", percentage: 75 },
-      { name: "MATLAB", percentage: 70 },
       { name: "R Studio", percentage: 75 },
-      { name: "Antigravity", percentage: 90 },
+      { name: "MATLAB", percentage: 70 },
     ],
   },
   {
@@ -139,20 +139,6 @@ export const experience = [
       "Used Reactive Forms, Observables, and Promises for CRUD operations"
     ],
     technologies: ["Angular", "TypeScript", "C#", "MySQL", "JWT", "Reactive Forms"],
-  },
-  {
-    company: "TechFer Logics",
-    role: "Android Developer",
-    duration: "June 2021 - August 2021",
-    location: "Remote",
-    description: "Completed training and worked on live Android application development projects using Java and Kotlin.",
-    achievements: [
-      "Developed native Android applications using Java and Kotlin",
-      "Implemented Retrofit, Recycler View, and Google sign-in functionality",
-      "Successfully implemented account deactivation feature in live project",
-      "Gained expertise in Deep Linking concepts and Data Binding"
-    ],
-    technologies: ["Java", "Android Studio", "Firebase", "REST APIs", "Kotlin", "Retrofit"],
   }
 ];
 

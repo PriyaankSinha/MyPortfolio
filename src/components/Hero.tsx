@@ -144,7 +144,7 @@ export default function Hero() {
       <motion.div 
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 1.5 }}
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
+        className="hidden md:block absolute bottom-10 left-1/2 transform -translate-x-1/2"
       >
         <a href="#about" className="text-foreground/50 hover:text-primary transition-colors flex flex-col items-center">
           <span className="text-xs mb-2 tracking-widest uppercase">Scroll Down</span>
